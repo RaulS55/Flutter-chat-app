@@ -1,6 +1,6 @@
 import 'package:chatapp/routes/routes.dart';
 import 'package:chatapp/utils/responsive.dart';
-import 'package:chatapp/widgets/custom.input.dart';
+import 'package:chatapp/iu/widgets/custom.input.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

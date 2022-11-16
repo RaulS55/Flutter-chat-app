@@ -1,14 +1,14 @@
 // ignore_for_file: constant_identifier_names
 
-import 'package:chatapp/pages/chat_page.dart';
-import 'package:chatapp/pages/login/loading_page.dart';
-import 'package:chatapp/pages/login_page.dart';
-import 'package:chatapp/pages/register/register_page.dart';
-import 'package:chatapp/pages/user_page.dart';
+import 'package:chatapp/iu/pages/chat/chat_page.dart';
+import 'package:chatapp/iu/pages/login/loading_page.dart';
+import 'package:chatapp/iu/pages/login_page.dart';
+import 'package:chatapp/iu/pages/register/register_page.dart';
+import 'package:chatapp/iu/pages/user/user_page.dart';
 import 'package:flutter/cupertino.dart';
 
 abstract class Pages {
-  static const String INITIAL = Routes.LOGIN;
+  static const String INITIAL = Routes.USER;
   static final Map<String, Widget Function(BuildContext)> routes = {
     Routes.CHAT: (_) => const ChatPage(),
     Routes.LOADING: (_) => const LoadingPage(),
